@@ -19,19 +19,20 @@
     </div><br>
     <div class="fill-form">
         <h2>fill in the form below to generate your akan names!!!!!!!!</h2>
+        <form name="myForm" class="form" onsubmit="validate();">
     </div><br>
-    <script src="index.js"></script>
+       
     <form class="form">
         <div class="form-group">
-            <label for="year" class="labels">Year Of Birth:</label>
+            <label for="year" class="labels">Year Of Birth:</label><br>
             <input type="number" class="yr" name="year" placeholder="Example:1945" id="year" required>
         </div><br>
         <div class="form-group">
-            <label for="month" class="labels">Month Of Birth:</label>
+            <label for="month" class="labels">Month Of Birth:</label><br>
             <input type="number" class="mth" name="month" placeholder="Example:December=12 " id="month" required>
           </div><br>
           <div class="form-group">
-            <label for="day" class="labels">Day Of Birth:</label>
+            <label for="day" class="labels">Day Of Birth:</label><br>
             <input type="number" class="dy" name="day" placeholder="Example:28 " id="day" required>
           </div><br>
           <h3>Selct your gender</h3><br>
@@ -46,5 +47,7 @@
                 </div>
 
     </form>
+    <script src="index.js"></script>
+
 </body>
 </html>
