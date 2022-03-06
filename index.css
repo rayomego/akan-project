@@ -9,11 +9,17 @@ body{
     background-position: center; 
      background-repeat: no-repeat; 
     background-size:cover;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(83, 186, 218);
     
 
 }
-.paragraph{
+
+.container{
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
+
+
+
