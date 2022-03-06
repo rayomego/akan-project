@@ -1,1 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('image/istockphoto-1281227346-612x612.jpg');
+    color: white;
+    background-position: center; 
+     background-repeat: no-repeat; 
+    background-size:cover;
+    font-family: cursive;
+    background-color: rgb(83, 186, 218);
+    
 
+}
+.paragraph{
+    text-align: center;
+}
